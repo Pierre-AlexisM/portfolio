@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build scr/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pierre-AlexisM/portfolio.git"
+  },
+  "author": "PA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pierre-AlexisM/portfolio/issues"
+  },
+  "homepage": "https://github.com/Pierre-AlexisM/portfolio#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
