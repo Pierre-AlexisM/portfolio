@@ -4,13 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio PA</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300i,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/styles.scss">
 </head>
 <body>
     <header class="header">
-        <h1 class="title">
-            Test
-        </h1>
+        <nav id="navBar">
+            <ul>
+                <li>Qui suis-je</li>
+                <li>Compétences</li>
+                <li>Travail</li>
+                <li>Contact</li>
+            </ul>
+            <div class="burgerMenu" id="burgerIcon">
+                <div class="burgerIcon"></div>
+            </div>
+        </nav>
+        <svg class="logo" width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.2912 1.85517C15.0298 1.34168 15.2365 0.718256 15.753 0.462709C16.2694 0.207161 16.9 0.416261 17.1614 0.929747L31.5267 29.1448C31.7881 29.6583 31.5814 30.2817 31.0649 30.5373C30.5485 30.7928 29.9179 30.5837 29.6565 30.0702L15.2912 1.85517Z" fill="#FFAF2A"/>
+            <path d="M6.65762 17.2736C6.92627 16.7639 7.5597 16.5637 8.07245 16.8264C8.58519 17.0891 8.78308 17.7152 8.51444 18.2248L2.34336 29.9321C2.07471 30.4417 1.44128 30.6419 0.928531 30.3793C0.415786 30.1166 0.217902 29.4905 0.486545 28.9808L6.65762 17.2736Z" fill="#FFAF2A"/>
+            <path d="M20.7566 16.7057C21.3263 16.7077 21.7864 17.1712 21.7843 17.7408C21.7822 18.3105 21.3187 18.7706 20.749 18.7686L7.62455 18.7215C7.05489 18.7195 6.59478 18.256 6.59689 17.6864C6.59899 17.1167 7.06249 16.6566 7.63216 16.6586L20.7566 16.7057Z" fill="#FFAF2A"/>
+            <path d="M21.6788 17.2047C21.9304 17.7233 21.7117 18.3429 21.1904 18.5886C20.6691 18.8344 20.0426 18.6133 19.791 18.0947L13.4124 4.94535C13.1608 4.4268 13.3795 3.80721 13.9008 3.56143C14.4221 3.31566 15.0486 3.53679 15.3002 4.05533L21.6788 17.2047Z" fill="#FFAF2A"/>
+            <path d="M11.1342 12.2884C10.8651 12.7978 10.2315 12.9975 9.71899 12.7344C9.20647 12.4712 9.00913 11.845 9.27822 11.3356L13.2295 3.85541C13.4986 3.346 14.1322 3.14635 14.6447 3.40947C15.1572 3.67259 15.3546 4.29884 15.0855 4.80825L11.1342 12.2884Z" fill="#FFAF2A"/>
+        </svg>
     </header>
+    <main>
+        <section class="presentation">
+            <div class="textCodeOne presentation__textCodeOne">
+                <p>&#60body&#62</p>
+            </div>
+            <div class="textCode presentation__textCode">
+                <p>&#60h1&#62</p>
+            </div>
+            <h1 class="title1 presentation__title1">Salut, Je m’appelle <span class="presentation__hyperWord">PA</span>, Web développeur.</h1>
+            <div class="textCode presentation__textCode">
+                <p>&#60/h1&#62</p>
+            </div>
+            <div class="textCode presentation__textCode">
+                <p>// Front end developer | Recherche de stage </p>
+            </div>
+        </section>
+        <section class="who">
+            <div class="textCode who__textCode">
+                <p>&#60h2&#62</p>
+            </div>
+            <h2 class="title2 who__title2">Qui suis-je?</h2>
+            <div class="textCode who__textCode">
+                <p>&#60/h2&#62</p>
+            </div>
+            <div class="textCode who__textCode">
+                <p>&#60p&#62</p>
+            </div>
+            <p class="text who__text">Etudiant à HETIC pour devenir développeur front-end, je suis organisé et logique, avec une grande attention du détail.</p>
+            <p class="text who__text">Passionné par les jeux vidéos, la science-fiction et l’histoire, je m’en inspire pour rendre le monde plus agréable à mon humble échelle.</p>
+            <p class="text who__text">Intéréssé par l’intégralité du spectre front-end, j’effectue une veille constante à son sujet.</p>
+            <div class="textCode who__textCode">
+                <p>&#60/p&#62</p>
+            </div>
+        </section>
+        <section class="skills">
+            <article class="skills__hard">
+                <div class="textCode skills__textCode">
+                    <p>&#60h2&#62</p>
+                </div>
+                <h2 class="title2 skills__title2">Hard Skills</h2>
+                <div class="textCode skills__textCode">
+                    <p>&#60/h2&#62</p>
+                </div>
+                <div class="textCode skills__textCode">
+                    <p>&#60ul&#62</p>
+                </div>
+                <ul>
+                    <li>- Développement front-end</li>
+                    <li>- Maitrise des langages du web</li>
+                    <li>- Responsive Design</li>
+                    <li>- Bon niveau d’Anglais</li>
+                    <li>- Sensibilité à l’UX Design</li>
+                    <li>- Connaissance du SCRUM/ méthode agile</li>
+                    <li>- Notions d’optimisation en JavaScript</li>
+                </ul>
+                <div class="textCode skills__textCode">
+                    <p>&#60/ul&#62</p>
+                </div>
+            </article>
+            <article class="skills__soft">
+                <div class="textCode soft__textCode">
+                    <p>&#60h2&#62</p>
+                </div>
+                <h2 class="title2 soft__title2">Soft Skills</h2>
+                <div class="textCode soft__textCode">
+                    <p>&#60/h2&#62</p>
+                </div>
+                <div class="textCode soft__textCode">
+                    <p>&#60ul&#62</p>
+                </div>
+                <ul>
+                    <li>- Logique</li>
+                    <li>- Esprit d’analyse</li>
+                    <li>- Conscencieux</li>
+                    <li>- Autonome</li>
+                    <li>- Responsable</li>
+                    <li>- Ouverture d’esprit</li>
+                    <li>- Faculté d’écoute</li>
+                </ul>
+                <div class="textCode soft__textCode">
+                    <p>&#60/ul&#62</p>
+                </div>
+            </article>
+        </section>
+        <section class="contact">
+            <div class="textCode contact__textCode">
+                <p>&#60contact&#62</p>
+            </div>
+            <p class="text contact__text">“pa.maerten@gmail.com”</p>
+            <p class="text contact__text">“0631436828”</p>
+            <div class="textCode contact__textCode">
+                <p>&#60/contact&#62</p>
+            </div>
+            <div class="textCodeOne contact__textCodeOne">
+                <p>&#60body&#62</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/Pierre-AlexisM">
+            <svg class="footer__icon" width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.39526 0.141458C3.56192 0.60161 0.478588 4.00674 0.0619213 8.14811C-0.438079 12.7496 2.14525 16.7069 5.81192 17.9954V15.8787C5.81192 15.8787 5.47859 15.9707 5.06192 15.9707C3.89526 15.9707 3.39525 14.8663 3.31192 14.2221C3.22859 13.854 3.06192 13.5779 2.81192 13.3018C2.56192 13.2098 2.47859 13.2098 2.47859 13.1178C2.47859 12.9337 2.72859 12.9337 2.81192 12.9337C3.31192 12.9337 3.72859 13.5779 3.89525 13.854C4.31192 14.5902 4.81192 14.7743 5.06192 14.7743C5.39526 14.7743 5.64526 14.6823 5.81192 14.5902C5.89526 13.946 6.14526 13.3018 6.64526 12.9337C4.72859 12.4735 3.31192 11.2771 3.31192 9.25248C3.31192 8.24014 3.72859 7.22781 4.31192 6.49156C4.22859 6.3075 4.14526 5.84735 4.14526 5.20313C4.14526 4.83501 4.14526 4.28283 4.39526 3.73065C4.39526 3.73065 5.56192 3.73065 6.72859 4.92704C7.14526 4.74298 7.72859 4.65095 8.31192 4.65095C8.89526 4.65095 9.47859 4.74298 9.97859 4.92704C11.0619 3.73065 12.3119 3.73065 12.3119 3.73065C12.4786 4.28283 12.4786 4.83501 12.4786 5.20313C12.4786 5.93938 12.3953 6.3075 12.3119 6.49156C12.8953 7.22781 13.3119 8.14811 13.3119 9.25248C13.3119 11.2771 11.8953 12.4735 9.97859 12.9337C10.4786 13.3938 10.8119 14.2221 10.8119 15.0504V18.0874C14.2286 16.891 16.6453 13.3938 16.6453 9.34451C16.6453 3.82268 12.3953 -0.502755 7.39526 0.141458Z" fill="#5D607C"/>
+            </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/pierre-alexis-maerten/">
+            <svg class="footer__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="1.81888" cy="1.59191" rx="1.81888" ry="1.59191" fill="#5D607C"/>
+                <path d="M0.0307617 4.26306H3.6377V16H0.0307617V4.26306Z" fill="#5D607C"/>
+                <path d="M0.0307617 4.26306H3.6377V16H0.0307617V4.26306Z" fill="#5D607C"/>
+                <path d="M12.208 8.58008H15.9999V16H12.208V8.58008Z" fill="#5D607C"/>
+                <path d="M12.208 8.58008H15.9999V16H12.208V8.58008Z" fill="#5D607C"/>
+                <path d="M4.90186 4.26306H8.50879V16H4.90186V4.26306Z" fill="#5D607C"/>
+                <path d="M4.90186 4.26306H8.50879V16H4.90186V4.26306Z" fill="#5D607C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.50876 11.8168C7.42049 11.044 6.7207 9.83922 6.7207 8.48566C6.7207 6.15358 8.79796 4.26306 11.3604 4.26306C13.9228 4.26306 16.0001 6.15358 16.0001 8.48566C16.0001 10.5542 14.3658 12.2754 12.2082 12.6379V8.68799V8.58008H12.2037C12.1371 7.78105 11.3364 7.15005 10.3585 7.15005C9.38053 7.15005 8.57985 7.78105 8.51324 8.58008H8.50876V8.68799V11.8168Z" fill="#5D607C"/>
+            </svg>
+        </a>
+    </footer>
+    <script src="JS/burgerMenu.js"></script>
 </body>
 </html>

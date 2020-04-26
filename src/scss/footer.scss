@@ -1,0 +1,14 @@
+.footer{
+    background-color: $darkGrey;
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+    &__icon {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

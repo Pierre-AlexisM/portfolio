@@ -1,0 +1,74 @@
+body {
+    background-color: $mediumGrey;
+    font-family: $roboto;
+}
+
+.textCodeOne {
+    margin: 8px $closeMargin;
+
+    p {
+        color: $lightGrey;
+        font-size: $normalSize;
+        font-style:italic;
+    }
+}
+
+.presentation{
+    padding-top: 68px;
+
+    &__hyperWord {
+        color: $primaryColor;
+    }
+
+    &__title1 {
+        color: $white;
+        font-size: $titleSize;
+        font-weight: bold;
+        margin-left: $longMargin;
+        max-width: 500px;
+    }
+}
+
+.textCode {
+    margin: 12px $medMargin;
+
+    p {
+        color: $lightGrey;
+        font-size: $normalSize;
+        font-style: italic;
+    }
+}
+
+.title2 {
+    color: $primaryColor;
+    font-size: $titleSize;  
+    font-weight: bold;  
+    margin-left: $longMargin;
+}
+
+.text {
+    font-family: $robotoMono;
+    color: $white;
+    font-size: $normalSize;
+    margin-left: $longMargin;
+    margin-right: $longMargin;
+    margin-bottom:1em;
+}
+section {
+    padding-top: 40px;
+}
+.who {
+
+    &__text {
+        max-width: 500px;
+    }
+}
+
+.skills {
+    
+    li {
+        font-family: $robotoMono;
+        color: $white;
+        margin-left: $longMargin;
+    }
+}
