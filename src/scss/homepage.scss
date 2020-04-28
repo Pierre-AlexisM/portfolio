@@ -4,7 +4,8 @@ body {
 }
 
 .textCodeOne {
-    margin: 8px $closeMargin;
+    margin: 0px $closeMargin;
+    padding-top: 60px;
 
     p {
         color: $lightGrey;
@@ -14,7 +15,6 @@ body {
 }
 
 .presentation{
-    padding-top: 68px;
 
     &__hyperWord {
         color: $primaryColor;
@@ -55,7 +55,7 @@ body {
     margin-bottom:1em;
 }
 section {
-    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .who {
 
@@ -70,5 +70,60 @@ section {
         font-family: $robotoMono;
         color: $white;
         margin-left: $longMargin;
+    }
+}
+
+@include desktop {
+
+    .textCodeOne{
+        padding-top: 16px;
+        padding-left: 50px;
+
+        p {
+            font-size:$normalSizeD;
+        }
+    }
+
+    .textCode {
+
+        p {
+            font-size:$normalSizeD;
+        }
+    }
+
+    .presentation{
+
+        padding-top:0;
+        padding-left:165px;
+
+        &__block {
+            display:flex;
+            width:200px;
+        }
+
+        &__textCode {
+            margin:0;
+        }
+
+        &__title1 {
+            font-size:$titleSizeD;
+            margin:0px;
+        }
+    }
+
+    .who{
+        display:none;
+    }
+
+    .skills {
+        display:none;
+    }
+
+    .contact {
+        display:none;
+    }
+
+    .textCodeLast {
+        margin-top:69vh; 
     }
 }

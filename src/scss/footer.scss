@@ -12,3 +12,9 @@
         margin-right: 16px;
     }
 }
+
+@include desktop {
+    .footer {
+        display: none;
+    }
+}
