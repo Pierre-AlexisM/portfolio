@@ -1,0 +1,33 @@
+@include desktop {
+
+ .who{
+        display: flex;
+        padding-top:15vh;
+        padding-left:0px;
+        margin-left: 136px;
+
+
+        &__logoContent {
+            margin-right: 5vw;
+        }
+
+        &__logo {
+            width:50vw;
+        }
+
+        h2 {
+            font-size:$titleSizeD;
+            margin-left: 32px;
+        }
+
+        &__text {
+                font-size:$normalSizeD;
+                margin-left:32px;
+                margin-right:0px;
+        }
+
+        &__textCode {
+            margin:12px 10px;
+        }
+    }
+}

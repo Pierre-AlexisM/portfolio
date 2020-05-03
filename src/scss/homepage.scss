@@ -1,3 +1,10 @@
+.header {
+
+    &__iconHome {
+        color:$primaryColor;
+    }
+} 
+
 body {
     background-color: $mediumGrey;
     font-family: $roboto;
@@ -77,7 +84,8 @@ section {
 
     .textCodeOne{
         padding-top: 16px;
-        padding-left: 50px;
+        padding-left: 40px;
+        margin-left: 50px;
 
         p {
             font-size:$normalSizeD;
@@ -93,26 +101,35 @@ section {
 
     .presentation{
 
-        padding-top:0;
-        padding-left:165px;
+        padding-top:15vh;
+        padding-left:155px;
 
         &__block {
             display:flex;
-            width:200px;
+            width:450px;
+            position: relative;
         }
 
         &__textCode {
             margin:0;
+            padding-top:10px;
+
+            &--2 {
+                position:absolute;
+                right: -50px;
+                bottom: 13px;
+            }
+
+            &--3 {
+                margin-left: 60px;
+            }
         }
 
         &__title1 {
             font-size:$titleSizeD;
             margin:0px;
+            padding-left: 20px;
         }
-    }
-
-    .who{
-        display:none;
     }
 
     .skills {
@@ -124,6 +141,13 @@ section {
     }
 
     .textCodeLast {
-        margin-top:69vh; 
+        position:absolute;
+        bottom:44px;
+    }
+
+    .textCodeHTML {
+        position:absolute;
+        bottom:16px;
+        left: -26px;
     }
 }
