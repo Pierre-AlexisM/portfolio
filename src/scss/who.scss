@@ -1,3 +1,10 @@
+.who {
+
+    &__text {
+        max-width: 500px;
+    }
+}
+
 @include desktop {
 
  .who{

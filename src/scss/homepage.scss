@@ -64,21 +64,6 @@ body {
 section {
     padding-bottom: 40px;
 }
-.who {
-
-    &__text {
-        max-width: 500px;
-    }
-}
-
-.skills {
-    
-    li {
-        font-family: $robotoMono;
-        color: $white;
-        margin-left: $longMargin;
-    }
-}
 
 @include desktop {
 
@@ -130,14 +115,6 @@ section {
             margin:0px;
             padding-left: 20px;
         }
-    }
-
-    .skills {
-        display:none;
-    }
-
-    .contact {
-        display:none;
     }
 
     .textCodeLast {

@@ -6,9 +6,18 @@
     display: flex;
     justify-content:space-between;
 
+    &__iconNav {
+        display:none;
+    }
+
+    &__footNav {
+        display: none;
+    }
+
     &__logo{
         margin-top:12px;
         margin-left:12px;
+        display: none;
     }
 
     .burgerMenu{
@@ -58,6 +67,7 @@
        border-radius:50px;
        overflow:hidden;
        transition: height 0.5s, width 0.5s, border-radius 0.3s, top 0.5s, right 0.5s;
+       z-index: 3;
 
         ul {
             position:fixed;
@@ -73,10 +83,14 @@
             opacity: 0;
             transition: transform 0.5s, opacity 0.3s;
 
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+
             li {
                 text-transform: uppercase;
                 font-size:$titleSize;
-                color: $white;
             }
 
             li:not(:last-child) {
@@ -84,13 +98,10 @@
             }
         }
         &.is-open{
-            height:100vh;
+            height:100em;
             width:100vw;
             border-radius:0;
-
-            .logo{
-                display:none;
-            }
+            z-index: 3;
 
             .burgerIcon {
                 background-color: transparent;
@@ -123,9 +134,14 @@
         flex-direction: column;
         justify-content: space-between;
 
+        &__footNav {
+            display: block;
+        }
+
         &__logo {
             margin-top:8px;
             margin-left:8px;
+            display:block;
         }
 
         &__iconNav {

@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
 .footer{
     background-color: $darkGrey;
     width: 100%;
@@ -6,6 +11,9 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
+    position: absolute;
+    bottom: 0px;
+    z-index:-1;
 
     &__icon {
         margin-left: 16px;

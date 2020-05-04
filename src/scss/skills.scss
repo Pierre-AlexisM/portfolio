@@ -1,0 +1,38 @@
+.skills {
+    
+    li {
+        font-family: $robotoMono;
+        color: $white;
+        margin-left: $longMargin;
+    }
+}
+
+@include desktop {
+
+    .skills{
+
+        margin-top: 9vh;
+        margin-left: 136px;
+
+        li {
+            margin-left:32px;
+            font-size:$normalSizeD;
+        }
+   
+        h2 {
+            font-size:$titleSizeD;
+            margin-left: 32px;
+        }
+   
+        &__textCode {
+            margin:12px 10px;
+        }
+    }
+
+    .soft {
+
+        &__textCode {
+            margin:12px 10px;
+        }
+    }
+}
