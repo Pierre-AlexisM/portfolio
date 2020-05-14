@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "test": "parcel src/test.html",
     "build": "parcel build src/index.html"
   },
   "repository": {

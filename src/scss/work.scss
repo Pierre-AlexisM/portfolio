@@ -1,0 +1,8 @@
+.displayWorks {
+    display:flex;
+    flex-wrap: wrap;
+
+    &__work {
+        max-width: 400px;
+    }
+}

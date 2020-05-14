@@ -21,11 +21,12 @@ body {
     }
 }
 
-.presentation{
+.hyperWord {
+    color: $primaryColor;
+}
 
-    &__hyperWord {
-        color: $primaryColor;
-    }
+
+.presentation{
 
     &__title1 {
         color: $white;
