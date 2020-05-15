@@ -1,8 +1,25 @@
 .displayWorks {
     display:flex;
     flex-wrap: wrap;
+    margin-left:2vw;
 
     &__work {
-        max-width: 400px;
+        max-width: 300px;
+        margin-left:10vw;
+        margin-top: 88px;
+    }
+
+    &__text {
+        margin: 24px 0px 0px 0px;
+        font-size:$normalSizeD;
+        color: $white;
+        font-family: $robotoMono;
+    }
+
+    &__textCode {
+        margin: 16px 0px 0px 0px;
+        font-size:$normalSizeD;
+        font-style:italic;
+        color: $lightGrey;
     }
 }
