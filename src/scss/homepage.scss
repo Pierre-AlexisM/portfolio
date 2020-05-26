@@ -47,6 +47,11 @@ body {
     }
 }
 
+.textCodeHTML {
+    padding-bottom: 56px;
+    padding-top: 24px;
+}
+
 .title2 {
     color: $primaryColor;
     font-size: $titleSize;  
@@ -120,12 +125,13 @@ section {
 
     .textCodeLast {
         position:absolute;
-        bottom:44px;
+        bottom: 56px;
     }
 
     .textCodeHTML {
+        padding:0;
         position:absolute;
         bottom:16px;
-        left: -26px;
+        left: 16px;
     }
 }
