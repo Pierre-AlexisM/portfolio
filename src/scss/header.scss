@@ -155,12 +155,14 @@
         } 
         
         &__footNav {
+            height: 100px;
             margin-left:16px;
+            display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-evenly;
 
-            svg{
-                margin-bottom:16px;
+            &__home {
+                
             }
         }
         &__navBar {
